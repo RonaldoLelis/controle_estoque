@@ -1,0 +1,330 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+body {
+  overflow-x: hidden;
+  background-color: #EEEEE0;
+}
+.logo{
+	width: 100%;
+	height: 100px;
+	background-color: #ccc;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+.logo2{
+	float: right;
+	padding-right: 15px;
+}
+h1{
+	float: 50%;
+}
+.topo{
+	width: 100%;
+	height: 70px;
+	background-color: #D3D3D3;
+	border-radius: 2px;	
+	padding: 6px;
+}
+.topo2{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 2px;	
+}
+.propag {
+	width: 100%;
+	height: 80px;
+	background-color: #cdd;	
+}
+.propag img{
+	width: 200px;
+	height: auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-98px;
+	margin-left:-98px;
+	
+}
+
+.borda{	
+	border-radius: 2px;	
+}
+input:focus{
+  border: 2px solid rgb(173,234,234);
+}
+input{
+  border: 2px solid #ccc;
+  border-radius: 5px;
+ }
+.cartoes{
+	 width: 85%;
+	 height: 110px;
+	 background-color: #e5e4e2;
+	 padding: 10px;
+	 border-radius: 15px;	 
+}
+.radio{
+	float: left;
+}
+.banner{
+	height: 150px;
+	background-color: #347aba;
+}
+.bannerinterior{
+	width: 900px;
+	margin: auto;	
+}
+.banneresquerda{
+	float: left;	
+}
+.bannerdireita{
+	float: right;	
+}
+.frase1{
+	font-size: 36px;
+	font-family: arial bold;
+	color: #ffffff;
+	margin: 25px;	
+}
+.frase2{
+	font-size: 28px;
+	font-family: arial bold;
+	color: #ffffff;
+	margin: 30px;
+}
+.botao{
+	width: 280px;
+	height: 50px;
+	background-color: ffc001;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+	margin: 30px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.conteudointerno{
+	width: 1000px;
+	margin: auto;
+	height: auto;
+}
+.outrosprodutos{
+	height: 90px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 90px;
+	font-family: arial;
+	color: #FF0010;
+}
+.fotos{
+	width: 100%;
+	height: auto;
+}
+.foto1{
+	width: 205px;
+	height: 330px;
+	background-color: #D3D3D3;
+	margin-left: 10px;
+	margin-right: 10px;	
+	padding: 10px;	
+	float: left;
+	border-radius: 10px;
+}
+
+.foto2{
+	width: 205px;
+	height: 330px;
+	background-color: #D3D3D3;
+	margin-left: 10px;
+	margin-right: 10px;	
+	padding: 10px;	
+	float: left;
+	border-radius: 10px;
+}
+.foto3{
+	width: 205px;
+	height: 330px;
+	background-color: #D3D3D3;
+	margin-left: 10px;
+	margin-right: 10px;	
+	padding: 10px;	
+	float: left;
+	border-radius: 10px;
+}
+.foto4{
+	width: 205px;
+	height: 330px;
+	background-color: #D3D3D3;
+	margin-left: 10px;
+	margin-right: 10px;	
+	padding: 10px;	
+	float: left;
+	border-radius: 10px;
+}
+.fundo{
+	width: 185px;
+	height: 190px;
+	background-color: #fff;
+	padding: 10px;	
+	border-radius: 10px;
+}
+
+.tamemail{
+	width:330px;
+	border-radius: 2px;	
+}
+select {
+	width: 268px;
+	padding: 5px;
+	text-size: 16px;
+	line-height: 1;
+	margin: 0px;
+	border-radius: 2px;
+	height: 34px;
+	-webkit-appearance : nenhum ;
+}
+.botao{
+	float: left;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+.empresa{
+	width: 400px;
+	height: 100px;
+	background-color: #afeeee;
+	float: left;
+}
+.contato{
+	width: 400px;
+	height: 100px;
+	background-color: #afeeee;
+	float: right;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;  
+}
+.rodape{
+	width: 100%;
+	height: 35px;
+	background-color: #0000DD;
+	color: #FFF;
+	bottom: 0px;
+	margin-top: 420px;
+	text-align: center;
+	line-height: 35px;
+}
