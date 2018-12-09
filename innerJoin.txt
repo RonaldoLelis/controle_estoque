@@ -1,0 +1,3 @@
+SELECT `produtos`.*, `categoria`.`nome` FROM `produtos`
+  INNER JOIN `categoria` ON `produtos`.`categoria_id` = `categoria`.`id`
+  ORDER BY `produtos`.`nome_prod` ASC
